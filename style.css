@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "PT Sans", sans-serif;
+  /* Used colour picker extension */
+  background-color: rgb(244, 243, 226);
+  color: rgb(34, 34, 32);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "PT Serif", sans-serif;
+}
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+header p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(115, 114, 94);
+  font-size: 1.75rem;
+  line-height: 1.25;
+  padding: 40px;
+}
+
+button {
+  padding: 14px 24px;
+  background-color: #73725e;
+  color: white;
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+button:hover {
+  background: #47473a;
+}
+
+.main-title {
+  margin: 0 auto;
+  height: 80vh;
+  text-align: center;
+}
+.main-title h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.main-title p {
+  margin-bottom: 80px;
+}
+.main-title .image {
+  background-image: url(/images/jason-briscoe-GliaHAJ3_5A-unsplash.jpg);
+  height: 570px;
+  background-size: cover;
+  background-position: center center;
+}
+
+img {
+  width: 369px;
+  height: 246px;
+}
+
+/* Descriptions */
+
+/* Basic landscaping */
+.landscaping {
+  width: 660px;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.landscaping-firstp {
+  margin-bottom: 35px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+/* Paint */
+.flex-initial {
+  display: flex;
+  width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.flex-initial img {
+  width: 557px;
+  height: 408px;
+}
+.flex-description {
+  width: 487px;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* The central paragraphs*/
+.description-center {
+  width: 660px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+/* tips CTA */
+.tips {
+  background-image: url(/images/nathan-fertig-FBXuXp57eM0-unsplash.jpg);
+  width: 100%;
+  height: 670px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.tips-get {
+  background: white;
+  width: 1000px;
+  height: 390px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.tips-container {
+  width: 850px;
+  margin: 0 auto;
+}
+.tips-get h1 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.tips-get p {
+  margin-bottom: 30px;
+  line-height: 1.75;
+  font-size: 22px;
+}
+
+/* CTA action modal */
+
+.open-modal {
+  width: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  background: white;
+  z-index: 10;
+}
+
+.open-modal img {
+  width: 600px;
+  height: 450px;
+}
+.open-modal-text {
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.open-modal h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.open-modal form {
+  text-align: center;
+}
+.open-modal form input {
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.open-modal button {
+  width: 100%;
+}
+.overlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.411);
+}
+
+.hidden {
+  display: none;
+}
+/* Footer */
+
+/* Footer description */
+footer {
+  text-align: center;
+}
+.footer-description .copyright {
+  font-size: 20px;
+  margin-right: 5px;
+}
+.footer-description p {
+  font-size: 18px;
+  margin-right: 5px;
+  display: inline;
+}
+.footer-description a {
+  color: black;
+  font-family: inherit;
+  cursor: pointer;
+  font-size: 18px;
+  color: #222220;
+}
+
+/* Footer - social media */
+.social-media {
+  margin-top: 20px;
+  height: 50px;
+}
+.social-media a {
+  text-decoration: none;
+}
+.social-media ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social-media .fa {
+  padding: 15px 20px;
+  width: 50px;
+  font-size: 30px;
+  color: white;
+  background: #73725e;
+  transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.fa:hover {
+  background: #47473a;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Media queries */
